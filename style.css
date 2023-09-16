@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+body{
+    background: hsl(192, 61%, 51%);
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 800px;
+    /* position: relative; */
+}
+
+body::after{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 255, 0);
+    top: 10%;
+    left: 20%;
+    filter: blur(200px);
+}
+
+body::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    top: 60%;
+    left: 60%;
+    filter: blur(200px);
+}
+
+
+.container{
+
+    /* position: relative; */
+    /* border: 1px solid blue; */
+    width: 300px;
+    height: 600px;
+    align-items: center;
+    color: black;
+    background: rgb(161, 215, 236);
+    border-radius: 10px;
+    backdrop-filter: blur(100px);
+   
+}
+
+.container h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    height: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    /* border: 1px solid green; */
+}
+.container form{
+    height: 500px;
+    margin: 0px;
+    /* border: 1px solid purple; */
+}
+.container form .Chicken{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.container form .Chicken button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px; 
+    padding: 0px 20px 0px 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #3862a1;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 5px solid black;
+}
+
+.container form .Beef{
+    width: 300px;
+    height: 50px; 
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+.container form .Beef button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px; 
+    padding: 0px 20px 0px 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #3862a1;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 5px solid black;
+}
+
+.container form .Lamb{
+    width: 300px;
+    height: 50px; 
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+}
+
+.container form .Lamb button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px; 
+    padding: 0px 20px 0px 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #3862a1;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 5px solid black;
+    
+}
+
+.container form .Vegetarian{
+    width: 300px;
+    height: 50px; 
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+}
+
+.container form .Vegetarian button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px; 
+    padding: 0px 20px 0px 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #3862a1;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 5px solid black;
+}
+
+.container form .Vegan{
+    width: 300px;
+    height: 50px; 
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+}
+
+.container form .Vegan button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px; 
+    padding: 0px 20px 0px 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #3862a1;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 5px solid black;
+}
+
